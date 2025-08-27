@@ -16,3 +16,8 @@ Use geospatial analytics and machine learning to evaluate supplier performance a
 - Unsupervised learning: PCA and clustering (K-Means, Hierarchical, DBSCAN). 
 - Association Rule Mining: Derived shipment/vendor/country/Incoterm patterns with minimum lift  and confidence.
 - Supervised models: Logistic Regression, Naive Bayes variants, Decision Trees, SVM (linear/poly/RBF), and Ensembles (AdaBoost, Random Forest, Bagging).
+
+## Result 
+- Built predictive models where SVM (RBF) reached ~73% accuracy and AdaBoost ensemble ~72%, outperforming baseline models.
+- Discovered key supply chain insights — Air shipments dominated (~58.7%), and association rule mining revealed strong links between shipment mode, Incoterms, and vendor reliability.
+- Delivered a complete geo-ML pipeline integrating mapping (OpenStreetMap, OSRM), unsupervised learning, and supervised ML for supplier performance evaluation and risk analysis.
